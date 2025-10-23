@@ -1,0 +1,24 @@
+{
+  "name": "docker_fille",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "directus-extension build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KNTcesar/docker_fille.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KNTcesar/docker_fille/issues"
+  },
+  "homepage": "https://github.com/KNTcesar/docker_fille#readme",
+  "description": "",
+  "dependencies": {
+    "@directus/extensions-sdk": "^16.0.2"
+  }
+}
