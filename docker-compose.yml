@@ -16,8 +16,10 @@ services:
     ports:
       - "8055:8055"
     environment:
-      KEY: 'random-key-here-change-me'
-      SECRET: 'random-secret-here-change-me'
+      KEY: 'my-unique-key-123'
+      SECRET: 'my-unique-secret-123'
+      ADMIN_EMAIL: 'admin@rtb.com'  # Vérifie cet email
+      ADMIN_PASSWORD: 'securePassword123'  # Vérifie ce mot de passe
       DB_CLIENT: 'pg'
       DB_HOST: directus_db
       DB_PORT: 5432
